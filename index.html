@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consultar CEP</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <main>
+    <h1>Consultar CEP</h1>
+
+    <form action="" class="form">
+
+      <div class="formulario-dupla">
+        <div class="formulario-campo">
+          <label for="CEP">CEP</label>
+          <input type="text" name="cep" id="cep" class="info-input cep">
+          <div id="erro"></div>
+        </div>
+    
+        <div class="formulario-campo">
+          <label for="cidade">Cidade</label>
+          <input type="text" name="cidade" id="cidade" class="info-input">
+        </div>
+      </div>
+  
+      <div class="formulario-dupla">
+        <div class="formulario-campo">
+          <label for="bairro">Bairro</label>
+          <input type="text" name="bairro" id="bairro" class="info-input">
+        </div>
+    
+        <div class="formulario-campo">
+          <label for="logradouro">Logradouro</label>
+          <input type="text" name="logradouro" id="logradouro" class="info-input">
+        </div>
+      </div>
+  
+      <div class="formulario-campo">
+        <label for="uf">UF</label>
+        <select id="estado" name="estado" class="info-select">
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PA">Pará</option>
+          <option value="PB">Paraíba</option>
+          <option value="PR">Paraná</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="RO">Rondônia</option>
+          <option value="RR">Roraima</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="SP">São Paulo</option>
+          <option value="SE">Sergipe</option>
+          <option value="TO">Tocantins</option>
+          <option value="EX">Estrangeiro</option>
+      </select>
+      </div>
+  
+      <input type="submit" value="Consultar" id="consultar">
+    </form>
+  </main>
+</body>
+</html>
